@@ -1,9 +1,9 @@
-console.log(1 + "2" + "2");
-console.log(1 + +"2" + "2");
-console.log(1 + -"1" + "2");
-console.log(+"1" + "1" + "2");
-console.log( "A" - "B" + "2");
-console.log( "A" - "B" + 2);
+console.log(1 + "2" + "2");    it gives "122" because it adds string
+console.log(1 + +"2" + "2");   it gives"32" because the int 1 is add to 2 and string 2 is add with that
+console.log(1 + -"1" + "2");    it gives "0" bcoz the int 1 is sub with string 1 and add string 2
+console.log(+"1" + "1" + "2");  the var added and gives "112"
+console.log( "A" - "B" + "2");  the "-" is not done anything btw a and band simply add with 2
+console.log( "A" - "B" + 2);    the three var canot added 
 
 
 
